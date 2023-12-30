@@ -44,8 +44,8 @@
     <p>You're almost there! Your application is just one step away from submission. To complete the process, click the button below.</p>
     <a href="{{ $confirmationUrl }}" class="button">Confirm Application</a>
     <p>If you have any questions or need further assistance, our support team is here to help.</p>
-    <p>Thank youenter.</p>
-    <p><strong>{{ config('app.name') }}</strong></p>
+    <p>Thank you.</p>
+    
 </div>
 
 </body>
