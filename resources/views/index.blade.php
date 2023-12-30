@@ -18,7 +18,9 @@
 <body>
   <header>
     <div class="container">
-      <a class="logo" href="/"><img src="assets/logo.png" alt="logo" /></a>
+      <a class="logo" href="/"
+        ><img src="./assets/logo.png" alt=""
+      /></a>
       <ul id="nav__items" class="nav__items">
         <button class="close__items-btn showInMoblie">
           <svg
@@ -48,15 +50,14 @@
           ><img src="./assets/logo.png" alt=""
         /></a>
         <li><a href="/">Home</a></li>
-        <li><a href="#WhyUs">Why Us</a></li>
-        <li><a href="#howWorks">How it works</a></li>
-      {{-- <div class="buttons">
-        <button class="btn purpleGradient"><a href="RequestCertificate">Apply Now</a></button>
-      </div> --}}
-      <form action="RequestCertificate">
-        <button class="btn purpleGradient" type="submit">Apply Now</button>
-      </form>
+        <li><a href="/#WhyUs">Why Us</a></li>
+        <li><a href="/#howWorks">How it works</a></li>
+      </ul>
+      <div class="buttons">
+         <a href="RequestCertificate"> <button class="btn purpleGradient"> Apply Now </button></a>
+      </div>
       <div id="open__items-btn" class="active">
+        <span>|</span>
         <span>|</span>
         <span>|</span>
       </div>
@@ -201,7 +202,7 @@
             </div>
             <span class="hideInMobile">drag & drop or </span>
             <span class="file-selector"> choose file </span>
-            <span class="hideInMobile"> to upload</span>
+            <span class="hideInMobile"> to upload (pdf - less than 2 mb)</span>
             <input type="file" name="CV" class="file-selector-input" multiple required />
           </div>
           <div class="col">

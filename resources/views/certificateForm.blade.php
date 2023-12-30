@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>I.G.C.C</title>
-  <link rel="stylesheet" href="{{ asset('css/main.css') }}" />
-  <link rel="icon" type="image/x-icon" href="/assets/logo.png" />
-
-  <!-- google font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I.G.C.C</title>
+    <link rel="icon" type="image/x-icon" href="/assets/logo.png" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
 <body>
   <header>
     <div class="container">
-      <a class="logo" href="/"><img src="assets/logo.png" alt="logo" /></a>
+      <a class="logo" href="/"
+        ><img src="./assets/logo.png" alt=""
+      /></a>
       <ul id="nav__items" class="nav__items">
         <button class="close__items-btn showInMoblie">
           <svg
@@ -51,20 +52,19 @@
         <li><a href="/">Home</a></li>
         <li><a href="/#WhyUs">Why Us</a></li>
         <li><a href="/#howWorks">How it works</a></li>
-      {{-- <div class="buttons">
-        <button class="btn purpleGradient"><a href="RequestCertificate">Apply Now</a></button>
-      </div> --}}
-      <form action="RequestCertificate">
-        <button class="btn purpleGradient" type="submit">Apply Now</button>
-      </form>
+      </ul>
+      <div class="buttons">
+         <a href="RequestCertificate"> <button class="btn purpleGradient"> Apply Now </button></a>
+      </div>
       <div id="open__items-btn" class="active">
+        <span>|</span>
         <span>|</span>
         <span>|</span>
       </div>
     </div>
   </header>
   <section class="certificate">
-    <div href="{{'RequestCertificate'}}" class="container">
+    <div class="container">
       <h2 class="h2title">Create your certificate</h2>
       <p class="ptitle">
         Ready to showcase your skills and unlock new opportunities? Fill out
@@ -126,8 +126,8 @@
               <img src="assets/upload_1-512-1744225666.png" alt="" />
             </div>
             <span class="hideInMobile">drag & drop or </span>
-            <span class="file-selector"> choose file </span>
-            <span class="hideInMobile"> to upload</span>
+            <span class="file-selector"> choose file  </span>
+            <span class="hideInMobile"> to upload (pdf - less than 2 mb)</span>
             <input type="file" name="CV" class="file-selector-input" multiple required />
           </div>
           <div class="col">
