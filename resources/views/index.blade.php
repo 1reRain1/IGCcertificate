@@ -217,7 +217,7 @@
       </form>
     </div>
   </section> --}}
-  <footer >
+  <!-- <footer >
     <div class="container">
       <div class="accounts">
         <a href="https://www.facebook.com/profile.php?id=61554657521065&mibextid=PlNXYD"><img src="assets/facebook.png"
@@ -229,7 +229,32 @@
       </div>
       <a class="contactUs"  href="">Contact Us</a>
     </div> 
-  </footer>
+  </footer> -->
+  <footer >
+      <div class="container">
+        <div class="up">
+          <div class="accounts">
+        <a href="https://www.facebook.com/profile.php?id=61554657521065&mibextid=PlNXYD"><img src="assets/facebook.png"
+            alt="" /></a>
+        <a href=""><img src="assets/email.png" alt="" /></a>
+          </div>
+          <div class="logo">
+            <a class="logo" href="./index.html"
+              ><img src="assets/logo.png" alt=""
+            /></a>
+          </div>
+          <a class="contactUs" href="">Contact Us</a>
+        </div>
+        <div class="down">
+          <p>Copyright &copy; 2023 igccenter.</p>
+          <div class="links">
+            <a href="">TERMS & conditions</a>
+            <a href="">privacy policy </a>
+            <a href="">FAQ</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   <script src="{{ asset('js/main.js') }}"></script>
   <script src="{{ asset('js/form.js') }}"></script>
 </body>
