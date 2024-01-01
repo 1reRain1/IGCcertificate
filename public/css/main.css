@@ -562,7 +562,7 @@ footer {
   position: relative;
 }
 
-footer::before {
+/* footer::before {
   content: "";
   background-color: var(--color-blue);
   position: absolute;
@@ -572,7 +572,7 @@ footer::before {
   border-top-right-radius: 11.5rem;
   top: -11.5rem;
   right: -8.5rem;
-}
+} */
 footer .container {
   height: 100%;
   display: flex;

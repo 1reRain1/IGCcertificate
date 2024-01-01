@@ -137,8 +137,7 @@
       </div>
     </div>
   </section>
-
-  <section class="certificate">
+  {{-- <section class="certificate">
     <div href="{{'RequestCertificate'}}" class="container">
       <h2 class="h2title">Create your certificate</h2>
       <p class="ptitle">
@@ -217,7 +216,7 @@
         <input type="submit" class="submit btn purpleGradient" value="place request" />
       </form>
     </div>
-  </section>
+  </section> --}}
   <footer >
     <div class="container">
       <div class="accounts">
